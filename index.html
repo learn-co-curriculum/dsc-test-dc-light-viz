@@ -9,17 +9,17 @@
 	</code>
 	<code data-type="sample-code">
 		# Numpy and matplotlib were imported. now run the code below.
-  		  y = [40, 30, 10, 50, 25, 5]
-    		labels = ['Crime', 'Sci/fi', 'Drama', 'Comedy', 'Action', 'Documentary' ]
-   		 x = np.arange(len(y))
+  		y = [40, 30, 10, 50, 25, 5]
+    	        labels = ['Crime', 'Sci/fi', 'Drama', 'Comedy', 'Action', 'Documentary' ]
+   		x = np.arange(len(y))
 
 		# Create a new figure object
     
-  		  # Plot vertical bars of fixed width by passing x and y values to .bar() function 
+  		# Plot vertical bars of fixed width by passing x and y values to .bar() function 
 
-   		 # Give a title to the bar graph
+   		# Give a title to the bar graph
 
-  		  # Output the final plot
+  		# Output the final plot
 
 	</code>
 	<code data-type="solution">
@@ -31,16 +31,16 @@
 		# Create a new figure object
   		  plt.figure(figsize =(8, 6))
 
-  		  # Plot vertical bars of fixed width by passing x and y values to .bar() function 
+  		# Plot vertical bars of fixed width by passing x and y values to .bar() function 
  		   plt.bar(x, y)
 
- 		   # Give a title to the bar graph
+ 	        # Give a title to the bar graph
   		  plt.title('Jim\'s Video Library')
   		  plt.ylabel('Number of movies')
   		  plt.xlabel('Genres')
   		  plt.xticks(x, labels)
 
-   		 # Output the final plot
+   	        # Output the final plot
   		  plt.show()
     
 	</code>
